@@ -1,0 +1,40 @@
+/* Style for the form and photo */
+body {
+    font-family: Arial, sans-serif;
+}
+#capture-container {
+    text-align: center;
+}
+#photo {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+#form-container {
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+#save-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* Style for the camera container and switch camera button */
+#camera-container {
+    text-align: center;
+}
+
+#switch-camera {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="capture-container">
+        <h1>GPS Mapping Shop</h1>
+        <div id="camera-container">
+            <video id="camera" autoplay playsinline></video>
+            <button id="switch-camera">Switch Camera</button>
+        </div>
+        <canvas id="canvas" style="display: none;"></canvas>
+        <img id="photo">
+        <button id="capture-button">Capture</button>
+    </div>
+    <div id="form-container">
+        <h2>Shop Information</h2>
+        <form id="shop-form">
+            <input type="text" id="shop-name" placeholder="Shop Name">
+            <input type="text" id="range" placeholder="Range">
+            <input type="text" id="station" placeholder="Station">
+            <input type="text" id="district" placeholder="District">
+            <button id="save-button" type="button">Save</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
